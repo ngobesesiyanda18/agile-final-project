@@ -1,14 +1,23 @@
+---
+name: User Story
+about: This Tamplate is for creating user strory
+title: ''
+labels: ''
+assignees: ''
 
+---
 
-## User Story
-As a [role]  
-I need [functionality]  
-So that [benefit]  
-
-## Acceptance Criteria
-Given [some context]  
-When [an action is taken]  
-Then [expected outcome]  
-
-## Notes
-Add any additional context here.
+**As a** [role]  
+ **I need** [function]  
+ **So that** [benefit]  
+   
+ ### Details and Assumptions
+ * [document what you know]
+   
+ ### Acceptance Criteria  
+   
+ ```gherkin
+ Given [some context]
+ When [certain action is taken]
+ Then [the outcome of action is observed]
+ ```
