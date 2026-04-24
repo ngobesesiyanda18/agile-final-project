@@ -1,23 +1,13 @@
----
-name: User Story
-about: This Tamplate is for creating user strory
-title: ''
-labels: ''
-assignees: ''
+User Story:
+As a catalog administrator,
+I need to delete a product,
+So that outdated products are removed.
 
----
+Acceptance Criteria:
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
-   
- ### Details and Assumptions
- * [document what you know]
-   
- ### Acceptance Criteria  
-   
- ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
- ```
+Given a product exists
+When I delete it
+Then it is removed from the catalog
+Given the product does not exist
+When I attempt to delete it
+Then I receive an error message
